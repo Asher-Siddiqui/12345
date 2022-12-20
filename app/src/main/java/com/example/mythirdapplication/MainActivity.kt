@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
         super.onPause()
         Log.d("lifecycle", "onPause invoked")
     }
+
     override fun onStop() {
         Toast.makeText(applicationContext,"OnStop invoked",Toast.LENGTH_LONG).show()
         super.onStop()
